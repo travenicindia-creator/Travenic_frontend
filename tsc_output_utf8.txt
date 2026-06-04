@@ -1,0 +1,5 @@
+﻿.next/types/validator.ts(42,39): error TS2307: Cannot find module '../../src/app/page.js' or its corresponding type declarations.
+src/app/(auth)/login/page.tsx(88,43): error TS2322: Type '{ children: string; href: string; size: string; className: string; }' is not assignable to type 'IntrinsicAttributes & Omit<AnchorHTMLAttributes<HTMLAnchorElement>, keyof LinkProps<any>> & LinkProps<...> & { ...; } & RefAttributes<...>'.
+  Property 'size' does not exist on type 'IntrinsicAttributes & Omit<AnchorHTMLAttributes<HTMLAnchorElement>, keyof LinkProps<any>> & LinkProps<...> & { ...; } & RefAttributes<...>'.
+src/app/(dashboard)/dashboard/trips/[tripId]/days/[day]/page.tsx(271,43): error TS2322: Type '"ghost" | "primary"' is not assignable to type '"link" | "default" | "outline" | "secondary" | "ghost" | "destructive" | null | undefined'.
+  Type '"primary"' is not assignable to type '"link" | "default" | "outline" | "secondary" | "ghost" | "destructive" | null | undefined'.
